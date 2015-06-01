@@ -46,16 +46,30 @@ body {
 		<h1 class="header-style">Contact Info</h1>
 	</div>
 
-	<!-- AboutMe Text-->
 	<div class="container">
-		<h2 style="color:white">
-			<span class="glyphicon glyphicon-envelope"></span> j.cope@gmail.com
-		</h2>
+		<form role="form">
+			<div class="form-group">
+				<label for="usr">Name:</label> <input type="text"
+					class="form-control" id="usr">
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label> <input type="email"
+					class="form-control" id="email">
+			</div>
+			<div class="form-group">
+				<label for="subject">Subject:</label> <input type="text"
+					class="form-control" id="subject">
+			</div>
+			<div class="form-group">
+				<label for="comment">Message:</label>
+				<textarea class="form-control" rows="5" id="message"></textarea>
+			</div>
+		</form>
 	</div>
 
-    <div class="push"></div>
-    <div class="push"></div>
-    <div class="push"></div>
+
+
+	<div class="push"></div>
 
 	<div class="footer copyright">
 		<p class="pull-left">&copy; 2015 Jonathan McMillon</p>

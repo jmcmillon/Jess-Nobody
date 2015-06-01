@@ -1,5 +1,4 @@
-
-        jQuery(document).ready(function ($) {
+jQuery(document).ready(function ($) {
 
             var _SlideshowTransitions = [
             //Fade in L
