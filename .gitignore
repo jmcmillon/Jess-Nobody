@@ -1,2 +1,8 @@
-.settings
+*.jar
+*.class
+*.properties
+*.log
+.classpath
 .project
+.settings/*
+.idea/**
