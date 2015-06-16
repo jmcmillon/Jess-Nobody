@@ -3,6 +3,5 @@
 *.properties
 *.log
 .classpath
-.project
 .settings/*
 .idea/**
